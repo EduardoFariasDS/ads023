@@ -1,0 +1,7 @@
+{
+  "name": "verigas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

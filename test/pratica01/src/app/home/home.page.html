@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title class="ion-text-align-center">
+      <ion-icon name="color-fill"></ion-icon>VeriGas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true"  padding>
+  <ion-grid>
+    <ion-col size="12">
+      <ion-img src="/assets/logoVeriGas.png"></ion-img>
+    </ion-col>
+
+  <ion-button color="dark" (click)="abrirCalcular()" expand="full">Calculo Gasolina ou Álcool</ion-button>
+  <ion-button color="dark" (click)="abrirLista()" expand="full">Lista melhores Postos DF</ion-button>
+  </ion-grid>
+</ion-content>
